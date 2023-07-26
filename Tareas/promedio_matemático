@@ -1,1 +1,33 @@
+El promedio matemático es una medida de la tendencia central de un conjunto de datos. Se calcula sumando todos los valores en un conjunto de datos y luego dividiendo la suma por el número de valores en el conjunto de datos.
 
+La fórmula para el promedio matemático es:
+
+Promedio = (valor 1 + valor 2 + ... + valor n) / n
+
+Por ejemplo, si tenemos los siguientes datos:
+
+1, 2, 3, 4, 5
+
+El promedio matemático es:
+
+(1 + 2 + 3 + 4 + 5) / 5 = 3
+
+Ejemplo:
+
+Un maestro quiere saber el promedio de calificaciones de su clase. El maestro tiene las siguientes calificaciones:
+
+90, 85, 80, 75, 70
+
+El promedio de calificaciones es: (90 + 85 + 80 + 75 + 70) / 5 = 80
+
+Referencias:
+
+Promedio matemático: https://en.wikipedia.org/wiki/Arithmetic_mean
+
+
+# Datos de calificaciones
+calificaciones = [90, 85, 80, 75, 70]
+
+# Calcular el promedio
+promedio = sum(calificaciones) / len(calificaciones)
+print("El promedio de calificaciones es:", promedio)
